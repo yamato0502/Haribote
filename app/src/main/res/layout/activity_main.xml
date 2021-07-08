@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonchat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonhelp" />
+
+    <Button
+        android:id="@+id/buttonlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonlog"
+        app:layout_constraintBottom_toTopOf="@+id/buttoncharacter"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncharacter"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/buttoncharacter"
+        app:layout_constraintTop_toBottomOf="@+id/buttonhaishin" />
+
+    <Button
+        android:id="@+id/buttonhelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonhelp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonchat"
+        app:layout_constraintEnd_toEndOf="@+id/buttonchat"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/buttonchat"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncharacter" />
+
+    <Button
+        android:id="@+id/buttoncharacter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttoncharacter"
+        app:layout_constraintBottom_toTopOf="@+id/buttonhelp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonhelp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/buttonhelp"
+        app:layout_constraintTop_toBottomOf="@+id/buttonlog" />
+
+    <Button
+        android:id="@+id/buttonhaishin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonhaishin"
+        app:layout_constraintBottom_toTopOf="@+id/buttonlog"
+        app:layout_constraintEnd_toEndOf="@+id/buttonlog"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/buttonlog"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/title_proto2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

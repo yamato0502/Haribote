@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Haribote</string>
+    <string name="buttonhaishin">配信</string>
+    <string name="buttonlog">ログを見る</string>
+    <string name="buttonzukan">図鑑</string>
+    <string name="buttonmodehaishin">配信者モード</string>
+    <string name="buttonmodeetsuran">閲覧者モード</string>
+    <string name="textViewhaishin">モード選択</string>
+    <string name="buttonikusei">育成</string>
+    <string name="buttonhelp">ヘルプを見る</string>
+    <string name="buttonkaishi">配信開始</string>
+    <string name="buttonowari">配信終了</string>
+    <string name="buttoncharacter">キャラクター</string>
+    <string name="textchara0" >キャラクターからの一言コメント</string>
+    <string name="textwakaranai">わからない問題</string>
+    <string name="textkaitou">解答</string>
+    <string name="buttonhelpsent">ヘルプを送る</string>
+    <string name="buttonchat">チャット</string>
+</resources>
